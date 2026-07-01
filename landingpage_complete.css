@@ -1,0 +1,223 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(14, 14, 14);
+    backdrop-filter: blur(8px);
+    
+
+}
+
+#nav_img {
+    display: flex;
+    height: 30px;
+    padding: 10px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 30px;
+
+}
+
+a:hover {
+    color: lightgray;
+    transform: translateY(-2px);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: lightgray;
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+   
+
+}
+
+.btn {
+    display: inline-block;
+    background: greenyellow;
+    color: black;
+
+    padding: 12px 18px;
+    margin: 6px 6px 0 0;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #333333;
+    transform: translateY(-2px);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("https://static.vecteezy.com/system/resources/thumbnails/046/837/306/small/fitness-trainer-smiling-in-gym-with-dumbbells-diverse-trainer-health-and-wellness-promotion-professional-athlete-strength-training-coach-photo.jpg");
+    background-size: cover;
+
+    min-height: 80vh;
+    display: flex;
+
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    margin: 0;
+    padding: 30px;
+
+}
+
+h1 {
+    font-size: 95px;
+}
+
+#titulo1 {
+    color: whitesmoke;
+    margin: 0;
+
+}
+
+#titulo2 {
+    color: greenyellow;
+    margin: 0;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    background-color: lightgray;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+}
+
+.feature-text {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    max-width: 250px;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    display: flex;
+    height: 100px;
+    padding: 10px;
+
+}
+@media (max-width: 768px){
+
+    .cards{
+        flex-direction: column;
+        align-items: center; 
+        gap: 10px;
+    }
+
+}
+
+.testimonial_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 14, 14);;
+ 
+}
+.testimonials{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    
+}
+.testimonial-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+    border-radius: 20px;
+   
+    background-color: rgb(44, 43, 43);
+    
+}
+.client-photo{
+    width: 100px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px){
+
+    body{
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        text-align: center;
+        gap: 25px;
+        
+    }
+
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+}
+
+#testimonial_block_title{
+    color: white;
+}
+.client-name{
+    color: greenyellow;
+}
+
+#feature_text_color{
+    color: rgb(33, 32, 32);
+}
+
+footer{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    background-color: rgb(14, 14, 14);
+}
+.redesbonitas{
+    display: flex;
+    gap: 20px;
+}
