@@ -139,6 +139,13 @@ img {
 }
 @media (max-width: 768px){
 
+    #titulo1{
+        font-size: medium;
+    }
+    #titulo2{
+        font-size: medium;
+    }
+
     .cards{
         flex-direction: column;
         align-items: center; 
